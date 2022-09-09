@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e1b2078b-645e-4989-bcab-46e406b3a2c5
+      - dc1212d0-c93c-4fe5-b1bc-33f7fdf62de7
       X-Runtime:
-      - '0.030363'
+      - '0.005292'
       Transfer-Encoding:
       - chunked
     body:
@@ -96,7 +96,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 08 Sep 2022 21:40:17 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1
@@ -122,15 +122,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b1d738bc-2457-470b-8e5e-2c3259eca8b9
+      - e22b03c8-a9d3-42a5-9665-4659d4e34b40
       X-Runtime:
-      - '0.002806'
+      - '0.001522'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 08 Sep 2022 21:40:17 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -156,9 +156,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9c9ca3c4-6db5-45f4-b9f3-2325f6401181
+      - e77215b7-e5e1-461b-91cb-09dba22eb7f5
       X-Runtime:
-      - '0.004550'
+      - '0.003157'
       Transfer-Encoding:
       - chunked
     body:
@@ -204,7 +204,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 08 Sep 2022 21:40:18 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants
@@ -230,9 +230,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6d2a8314-5025-41c6-8162-529b0d27a197
+      - ee2c4c01-ff9e-4fc0-8bd1-21002d79a492
       X-Runtime:
-      - '0.004332'
+      - '0.004354'
       Transfer-Encoding:
       - chunked
     body:
@@ -301,7 +301,7 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 08 Sep 2022 21:40:18 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/42
@@ -327,15 +327,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d18a9d0d-26dc-49f9-a98a-8bca244507e4
+      - e4777e10-79a2-46f4-b6b5-8275e23eab28
       X-Runtime:
-      - '0.001827'
+      - '0.001833'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"42","type":"merchant","attributes":{"name":"Glover Inc"}}}'
-  recorded_at: Thu, 08 Sep 2022 21:40:18 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/42/items
@@ -361,9 +361,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7950d43c-bf9e-4e33-a8c1-b4a198ef7f65
+      - a8ab9c19-ea45-4477-b951-58edd70352b4
       X-Runtime:
-      - '0.003042'
+      - '0.002941'
       Transfer-Encoding:
       - chunked
     body:
@@ -404,5 +404,5 @@ http_interactions:
         nobis. Accusantium quas qui dolore velit. Et ipsa occaecati aut alias est.","unit_price":700.26,"merchant_id":42}},{"id":"950","type":"item","attributes":{"name":"Item
         Accusantium Quasi","description":"Non est sint dicta nam. Pariatur eos nostrum
         perspiciatis ab eum. Et tempora aut laboriosam nam deserunt explicabo.","unit_price":406.68,"merchant_id":42}}]}'
-  recorded_at: Thu, 08 Sep 2022 21:40:18 GMT
+  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
 recorded_with: VCR 6.1.0
