@@ -14,6 +14,8 @@ RSpec.describe 'Merchant Show' do
       expect(page).to have_content('Name: Item Ea Voluptatum')
       expect(page).to have_content('Description: Sunt officia eum qui molestiae.')
       expect(page).to have_content('Price: 323.01')
+      click_link 'Item Ea Voluptatum'
+      expect(current_path).to eq(item_path(2500))
     end
   end
 end

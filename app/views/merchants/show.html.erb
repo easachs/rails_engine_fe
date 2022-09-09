@@ -1,7 +1,7 @@
 <h1><%= @merchant.name %></h1>
 
 <% @items.each do |item| %>
-  <div id="item-<%= item.id %>"><p>Name: <%= item.name %></p>
+  <div id="item-<%= item.id %>"><p>Name: <%= link_to item.name, item_path(item.id) %></p>
   <p>Description: <%= item.description %></p>
   <p>Price: <%= item.unit_price %></p></div></br>
 <% end %>

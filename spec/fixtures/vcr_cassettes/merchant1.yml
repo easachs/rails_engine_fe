@@ -25,15 +25,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 02da073b-2668-4177-8744-c2da0e9ad9ce
+      - b01ef941-9236-4695-bbb7-c0eaf0afc1df
       X-Runtime:
-      - '0.001664'
+      - '0.006417'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
+  recorded_at: Fri, 09 Sep 2022 04:17:51 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -59,9 +59,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a0942a55-5546-4911-8d0d-5cb9e98a6272
+      - 7bd2ff3e-2002-414c-88b7-499497859b20
       X-Runtime:
-      - '0.003931'
+      - '0.003527'
       Transfer-Encoding:
       - chunked
     body:
@@ -107,5 +107,42 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Fri, 09 Sep 2022 03:30:11 GMT
+  recorded_at: Fri, 09 Sep 2022 04:17:51 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/2500
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"03f86d5e0a3416b667e51b77395b6b0a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 36928ac8-264f-4ab9-8b69-5d40620ad5fc
+      X-Runtime:
+      - '0.003110'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"2500","type":"item","attributes":{"name":"Item Ea Voluptatum","description":"Sunt
+        officia eum qui molestiae. Nesciunt quidem cupiditate reiciendis est commodi
+        non. Atque eveniet sed. Illum excepturi praesentium reiciendis voluptatibus
+        eveniet odit perspiciatis. Odio optio nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}}'
+  recorded_at: Fri, 09 Sep 2022 04:17:51 GMT
 recorded_with: VCR 6.1.0
